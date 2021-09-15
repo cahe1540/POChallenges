@@ -25,5 +25,9 @@ function longestNonRepeat(input){
     }
     return solution;
 }
-const word = "abcda";
-console.log(longestNonRepeat(word));
+
+const tests = ["abcabcbb", "aaaaaa", "abcde", "abcda", "", "a", "ab", "abcabchigj", "jdkfjalkfsafslkgaglfqjrjerioqrwteroignreklanvdklfafjalkfjasflkagjalgajaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabcdefghijklmnopqrstuvwxyz"];
+
+tests.forEach(word => {
+    console.log(longestNonRepeat(word));
+});

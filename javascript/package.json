@@ -1,0 +1,19 @@
+{
+  "name": "pochallenges",
+  "version": "1.0.0",
+  "description": "Solutions to problems for PO week 9/14/2021",
+  "main": "index.js",
+  "scripts": {
+    "go": "node challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cahe1540/POChallenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cahe1540/POChallenges/issues"
+  },
+  "homepage": "https://github.com/cahe1540/POChallenges#readme"
+}

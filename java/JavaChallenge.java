@@ -63,5 +63,8 @@ class JavaChallenge {
 
     public static void main(String[] args) {
         System.out.println(decToOctal(35));
+        System.out.println(decToOctal(0));
+        System.out.println(decToOctal(100));
+        System.out.println(decToOctal(8));
     }
 }
